@@ -1,38 +1,57 @@
 <!DOCTYPE html>
+	<!-- You do not need to make any changes to this file, but
+	you should still review the tags to make sure that you
+	are familiar with them. -->
+
 <html lang="en">
+<!-- All of the meta data for the page belongs in the header tag -->
 <head>
-	<!--  TIP 
-	You will find any errors from the head section using the console. -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link to the favicon image -->
 	<link rel="icon" href="images/logo192.ico">
+	<!-- Link to the reset file -->
 	<link rel="stylesheet" href="css/html5reset.css">
+	<!-- Link to the stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
-	<title>Random</title>
+	<title>About</title>
 </head>
+
+<!-- All of the visible code in the page belongs in the body tag -->
 <body>
+	<a class = "skip" href="#skip">Skip to Main Content</a>
+	<!-- Header is a sematic tag page that aids readability -->
 	<header>
+		<!-- Nav is a sematic tag page that aids accessibility -->
 		<nav>
 			<ul>
-				<li class="active"><a href = "index.html" >About Me</a></li>
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				<li class="active"><a href = "index.html" >About</a></li>
 				<li><a href = "personal.html">Menu</a></li>
 				<li><a href = "random.html">Random</a></li>
 				<li><a href = "http://www.si.umich.edu">UMSI</a></li>
 			</ul>
 		</nav>
-
-		<h1>Random Page</h1>
+		<!-- The h1 is a semantic tag that aids accessibility -->
+		<h1>2048 Boba Cafe</h1>
 	</header>
-	
-	
-	<main>
-	<p>Make sure you are doing the readings from the <a href = "http://www.w3schools.com/html/">W3 Schools HTML 
-		tutorial</a> as well as the readings from Shay Howe's 
-		<a href = "https://learn.shayhowe.com/html-css/">HTML and CSS tutorial</a>
 
-	<p>Using the Piazza site is another great way to stay on top of your classwork</p>
-</main>
+	<!-- Every page should have a main tag for accessibility -->
+	<main class = "about" id = "skip">
+		
+		<p>The culture that's been created from the culmination of positive experiences 
+			the world has had every time one has decided to grab boba. 
+			With boba becoming so popular these days, 
+			it’s no question that there’s a culture that’s been developing behind it.</p>
 
+		<!-- Make sure your anchor tags have a link (href) and a clickable component -->
+		<p>
+			At 2048 Boba, we value the culture and positivity that boba brings to the community. 
+			Our mission is not only to provide an impeccable work and customer experience, 
+			but also to share a sense of belonging and happiness that breeds friendships.</p>
+	</main>
+
+	<!-- Footer is a sematic tag page that aids readability -->
 	<footer>
 		<p>2048 Boba &copy; 2022</p>
 	</footer>

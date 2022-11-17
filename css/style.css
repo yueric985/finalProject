@@ -27,7 +27,7 @@ h1{
 img{
     height: 175px;
 	width:auto;
-    border: 3px solid blue;
+    border: 3px solid black;
     padding: 25px;
     border-radius: 20px;
     margin: 10px;
@@ -56,7 +56,7 @@ header, nav, main, footer{
 /*Change the styling for all of the list 
 items in the nav section*/
 nav li{
-	background-color: #ECFF4D;
+	/* background-color: #ECFF4D; */
 	padding:10px;
 	width:25%;
 	border:1px solid black;

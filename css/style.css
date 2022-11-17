@@ -48,7 +48,7 @@ p, h1, h2 {
 /*Add borders around the main components and some
 space too*/
 header, nav, main, footer{
-	border: 3px solid red;
+	border: 3px solid black;
 	margin: 20px 0;
 }
 

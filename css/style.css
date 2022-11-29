@@ -1,10 +1,50 @@
 /*Add padding and margin to space out the page.
 Make the font larger too.*/
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url("../images/background.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
 body{
 	margin:1%;
 	padding:1%;
 	font-size:150%;
-	font-family: 'Raleway,sans-serif';
+	font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navigation{
+  flex: 1;
+  text-align: right;
+
+}
+
+.navigation ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 30px;
+  position: relative;
+}
+
+.navigation ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 /*Make the h1 heading bigger with a bold font*/
@@ -13,10 +53,10 @@ h1{
 	font-weight: bold;
 }
 
-.active{
-	background: white;
-    text-transform: uppercase;
-	text-align: center;
+.active{	
+  border-bottom-width: 10px;	
+  padding-bottom: 3px;	
+  border-bottom: 1px solid white;	
 }
 
 .active a{
@@ -41,14 +81,15 @@ h2{
 
 /*Improve the spacing for paragraphs AND headings*/
 p, h1, h2 {
-    padding: 10px;
-	font-family: Raleway, sans-serif;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
 	text-align: center;
+  color: white;
 }
 
 /*Add borders around the main components and some
 space too*/
-header, nav, main, footer{
+header, main, footer{
 	border: 3px solid black;
 	margin: 20px 0;
 }
@@ -63,19 +104,6 @@ header, nav, main, footer{
 }
 
 
-/*Change the styling for all of the list 
-items in the nav section*/
-nav li{
-	/* background-color: #ECFF4D; */
-	padding:10px;
-	width:25%;
-	border:1px solid black;
-	display: inline-block;
-	width: 20%;
-}
-
-/*Added this so the links stay the same color*/
-a:visited{color:#0000FF}
 
 /* .zoom {
 	padding: 50px;

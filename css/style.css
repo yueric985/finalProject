@@ -98,8 +98,8 @@ a:visited{color:#0000FF}
 }
 
 .container img {
-  width:90%;
-  height:90%;
+  width:80%;
+  height:80%;
   object-fit:contain;
   align-items: center;
   justify-content: center;
@@ -112,8 +112,8 @@ a:visited{color:#0000FF}
   align-items:center;
   justify-content:center;
   position:absolute;
-  width:100%;
-  height:100%;
+  width:93%;
+  height:93%;
   top:0;
   left:0;
   color:#fff;

@@ -3,7 +3,7 @@
 }
 
 .header{
-    min-height: 200vh;
+    min-height: 145vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url("../images/background.jpeg");
     background-position: center;
@@ -56,7 +56,7 @@ nav{
 }
 .text-box h1{
     font-size: 62px;
-    position: relative; top: -100px;
+    position: relative; top: -20px;
     
 }
 .text-box p{

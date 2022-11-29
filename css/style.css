@@ -43,6 +43,7 @@ h2{
 p, h1, h2 {
     padding: 10px;
 	font-family: Raleway, sans-serif;
+	text-align: center;
 }
 
 /*Add borders around the main components and some
@@ -66,4 +67,63 @@ nav li{
 
 /*Added this so the links stay the same color*/
 a:visited{color:#0000FF}
+
+/* .zoom {
+	padding: 50px;
+	background-color: white;
+	transition: transform .2s; /* Animation */
+	/* width: 200px;
+	height: 200px;
+	margin: 0 auto;
+} */
+
+/* .zoom:hover { */
+	/*transform: scale(1.5);  (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  /* } */
+
+
+
+.gallery {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  div>div {
+    background-color: white;
+  }
+
+
+.container {
+  position:relative;
+}
+
+.container img {
+  width:90%;
+  height:90%;
+  object-fit:contain;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.container .caption {
+  background-color:rgba(0,0,0,0.5);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  color:#fff;
+  font-family:sans-serif;
+  opacity:0;
+  transition:opacity 0.3s;
+  border-radius: 20px;
+}
+
+.container:hover .caption {
+  opacity:1;
+}
 

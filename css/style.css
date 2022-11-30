@@ -90,7 +90,6 @@ p, h1, h2 {
 /*Add borders around the main components and some
 space too*/
 header, main, footer{
-	border: 3px solid black;
 	margin: 20px 0;
 }
 
@@ -103,21 +102,22 @@ header, main, footer{
     position: relative;
 }
 
-
-
-/* .zoom {
-	padding: 50px;
-	background-color: white;
-	transition: transform .2s; /* Animation */
-	/* width: 200px;
-	height: 200px;
-	margin: 0 auto;
-} */
-
-/* .zoom:hover { */
-	/*transform: scale(1.5);  (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  /* } */
-
+a.skip{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
+  
+a.skip:focus{
+    top:20px;
+    color: black;
+    text-decoration-style: solid;
+  }
 
 
 .gallery {

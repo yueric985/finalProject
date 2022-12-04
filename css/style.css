@@ -89,7 +89,7 @@ p, h1, h2 {
 /*Add borders around the main components and some
 space too*/
 header, main, footer{
-	margin: 20px 0;
+	margin: 0;
 }
 
 .header{

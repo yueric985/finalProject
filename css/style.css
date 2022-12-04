@@ -14,8 +14,7 @@ Make the font larger too.*/
 }
 
 body{
-	margin:1%;
-	padding:1%;
+
 	font-size:150%;
 	font-family: 'Roboto', sans-serif;
 }

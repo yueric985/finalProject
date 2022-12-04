@@ -3,7 +3,7 @@
 }
 
 .header{
-    min-height: 145vh;
+    min-height: 140vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url("../images/background.jpeg");
     background-position: center;
@@ -60,8 +60,8 @@ nav{
     
 }
 .text-box p{
-    margin: 10px 0 40px;
-    font-size:14px;
+    margin: 10px 0 0px;
+    font-size:30px;
 
 }
 
@@ -104,8 +104,30 @@ a.skip{
   .about p{
     color:white;
     background-color: black;
-    font-size: 14;
+    font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
   }
+
+  button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  div {
+    margin-top: 1rem;
+  }
+
+ img {
+  display: block;
+  margin-top: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  overflow: auto;
+ }
+
+ h2 {
+  margin-top: 20px;
+ }

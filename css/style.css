@@ -136,9 +136,9 @@ a.skip:focus{
     grid-gap: 3px;
     grid-template-columns: repeat(3, 1fr);
   }
-  div>div {
+/*   div>div {
     background-color: white;
-  }
+  } */
 
 
 .container {

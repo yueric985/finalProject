@@ -19,6 +19,11 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+footer p{
+	color: black;
+	text-align: left;
+}
+
 nav{
   display: flex;
   padding: 2% 6%;

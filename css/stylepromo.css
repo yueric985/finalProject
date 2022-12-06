@@ -48,7 +48,7 @@ nav{
     font-family: 'Roboto', sans-serif;
     width: 90%;
     color: #fff;
-    position: absolute;
+    position: relative;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -56,7 +56,9 @@ nav{
 }
 .text-box h1{
     font-size: 62px;
-    position: relative; top: -20px;
+    position: relative;
+    top: auto;
+    margin-top: 10%;
     
 }
 .text-box p{
@@ -110,7 +112,7 @@ a.skip{
   }
 
   .promos{
-    margin-top: 300px;
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -124,5 +126,152 @@ a.skip{
     justify-content: center;
     object-position: bottom;
     padding: 5px;
+    
   }
 
+  @media only screen and (min-width: 350px){
+    /* .text-box h1{
+      font-size: 40px;
+      font-weight: 600;
+      position: center; top: -200;
+    } */
+    .text-box h1{
+      font-size:30px;
+      font-weight: 600;
+      margin-top: 35%;
+    }
+
+    .navigation{
+      flex: 1;
+      text-align: center;
+  
+  }
+  .promos{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+  }
+  
+  
+  .navigation ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 10px 10px;
+      position: relative;
+  }
+  
+  .navigation ul li a{
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      
+  }
+}
+
+  @media only screen and (min-width: 750px){
+    .text-box h1{
+      font-size: 62px;
+      font-weight: 600;
+    }
+    .navigation{
+      flex: 1;
+      text-align: center;
+    
+    }
+    
+    .navigation ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 15px 35px;
+      position: relative;
+    }
+    
+    .navigation ul li a{
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .promos{
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: normal;
+      padding-bottom: 5%;
+    }
+
+  }
+
+  @media only screen and (min-width: 1000px){
+    nav{
+      display: flex;
+      padding: 2% 6%;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+  }
+  .text-box{
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    position: relative;
+    top: auto;
+    margin-top: 10%;
+    
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size:14px;
+
+}
+  
+  .navigation{
+      flex: 1;
+      text-align: right;
+  
+  }
+  
+  .navigation ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 10px 30px;
+      position: relative;
+  }
+  
+  .navigation ul li a{
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  .promos{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+  }
+
+  img{
+    
+    width:200px;
+    align-items: center;
+    justify-content: center;
+    object-position: bottom;
+    padding: 5px;
+    
+  }
+
+  
+
+
+  }

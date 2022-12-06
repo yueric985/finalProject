@@ -180,3 +180,132 @@ a.skip:focus{
   opacity:1;
 }
 
+@media only screen and (min-width: 350px){
+  .text-box h1{
+      font-size: 40px;
+  }
+
+  .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  
+  .course-col:hover{
+      box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+  }
+
+  .row{
+    flex-direction: column;
+  }
+  .navigation{
+    flex: 1;
+    text-align: center;
+
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+}
+
+@media only screen and (min-width: 750px){
+  .text-box h1{
+    font-size: 55px;
+}
+.navigation{
+  flex: 1;
+  text-align: center;
+
+}
+
+.navigation ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 15px 35px;
+  position: relative;
+}
+
+.navigation ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+}
+
+@media only screen and (min-width: 1000px){
+  .text-box h1{
+    font-size: 62px;
+}
+  nav .fa{
+    display: none;
+  }
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation{
+    flex: 1;
+    text-align: right;
+
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+    position: relative;
+}
+
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row;
+}
+
+
+.course-col{
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+}

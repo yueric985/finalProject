@@ -133,12 +133,6 @@ a.skip{
     transform:scale(1.25);
   }
 
-  @media only screen and (min-width: 350px){
-    /* .text-box h1{
-      font-size: 40px;
-      font-weight: 600;
-      position: center; top: -200;
-    } */
     .text-box h1{
       font-size:30px;
       font-weight: 600;
@@ -172,7 +166,8 @@ a.skip{
       font-size: 14px;
       
   }
-}
+
+
 
 
   @media only screen and (min-width: 750px){
@@ -275,8 +270,6 @@ a.skip{
     padding: 5px;
     
   }
-
-  
 
 
   }

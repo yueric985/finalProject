@@ -159,11 +159,6 @@ a.skip{
     margin: 10px 0;
     font-size: 20px;
   }
-  
-@media only screen and (min-width: 350px){
-  .text-box h1{
-      font-size: 40px;
-  }
 
   .row{
     margin-top: 5%;
@@ -188,25 +183,31 @@ a.skip{
   .row{
     flex-direction: column;
   }
-  .navigation{
-    flex: 1;
-    text-align: center;
+
+  .text-box h1{
+    font-size: 40px;
+}
+
+.navigation{
+  flex: 1;
+  text-align: center;
 
 }
 
 .navigation ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 10px;
-    position: relative;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px;
+  position: relative;
 }
 
 .navigation ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  
 }
-}
+
 
 @media only screen and (min-width: 750px){
   .text-box h1{
@@ -215,8 +216,8 @@ a.skip{
 .navigation{
   flex: 1;
   text-align: center;
-
 }
+
 
 .navigation ul li{
   list-style: none;
@@ -274,19 +275,5 @@ a.skip{
   flex-direction:row;
 }
 
-
-.course-col{
-  flex-basis: 31%;
-  background: #fff3f3;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
-}
-
-.course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
 }
 
